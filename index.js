@@ -1,17 +1,21 @@
 'use strict';
+const {MyMath} = require('./MyMath');
+const sum = MyMath.sum(2,2);
 
-const {MyMath} = require('./MyMath.js');
-const {Component} = require('./Component');
-const {utils: {sayHello, sayBye}} = require('./utils');
-// console.log(utils);
+/*
+require(path);
 
-const sum2n2 = MyMath.sum(2, 2);
-console.log(sum2n2);
-const multy3n5 = MyMath.multy(3, 5);
-console.log(multy3n5);
+HOW REQUIRE WORKS:
 
-const component = new Component();
-console.log(component.render());
+resolving -> loading -> wrappening -> evaluation -> caching
 
-
-console.log(sayHello());
+RESOLVING:
+    1) Core modules
+    2) File 
+        *.js | *.json
+    3) Directory
+        3.1) package.json -> "main"
+        3.2) index.js | index.json
+    4) node_modules
+    5) throw new Error();
+*/
