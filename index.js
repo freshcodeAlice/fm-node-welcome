@@ -1,3 +1,4 @@
 'use strict';
+const _ = require('lodash');
 
-console.log('hello, world');
+console.log(`Random number: ${_.random(1, 10, false)}`);
