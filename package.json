@@ -1,0 +1,23 @@
+{
+  "name": "fm-node-welcome",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshcodeAlice/fm-node-welcome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freshcodeAlice/fm-node-welcome/issues"
+  },
+  "homepage": "https://github.com/freshcodeAlice/fm-node-welcome#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
