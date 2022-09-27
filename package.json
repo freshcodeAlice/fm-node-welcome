@@ -2,10 +2,11 @@
   "name": "fm-node-welcome",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx webpack serve --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "homepage": "https://github.com/freshcodeAlice/fm-node-welcome#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }
